@@ -12,13 +12,13 @@
             alt="portfolio picture"
             class="w-[124px] h-[124px] rounded-full object-cover object-center z-10"
         >
-        <div class="-ml-[45px]">
+        <div class="-ml-[45px] w-full">
             <div class="pl-[55px]">
                 <h1 class="text-base font-bolt w-full line-clamp-1">{{ profileStore.name }}</h1>
                 <h2 class="text-xs text-gray-500 line-clamp-1">{{ profileStore.occupation }}</h2>
             </div>
             <div class="mt-2 w-full pl-[55px] pr-4 bg-yellow-100 z-0 rounded-md border-gray-200 border max-h-[55px]">
-                <p class="text-sm py-1 line-clamp-2">
+                <p class="text-sm py-1 line-clamp-2 max-w-[200px]">
                     {{ profileStore.about }}
                 </p>
             </div>

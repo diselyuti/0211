@@ -9,8 +9,8 @@
         </label>
         <textarea class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline" id="review" type="text" placeholder="Review" required v-model="review.text"></textarea>
         <div class="flex justify-center">
-            <button class="bg-yellow-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-1/2 mt-3" type="submit">
-                Send Review
+            <button class="bg-[#FDD639] text-[#333333] font-bold py-2 rounded-full mt-3 w-full max-w-[281px]" type="submit">
+                Send a Message
             </button>
         </div>
     </form>

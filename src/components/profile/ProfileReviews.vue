@@ -3,7 +3,7 @@
         <header class="flex justify-between items-center mb-2">
             <h2 class="text-base font-bold">
                 Latest reviews
-                <button v-if="profileStore.reviewsTotal > reviewsPerPage" class="text-sm text-blue-600 underline font-normal mx-2" @click="isShowAllReviews = !isShowAllReviews">
+                <button v-if="profileStore.reviewsTotal > reviewsPerPage" class="text-sm text-[#005DA1] underline font-normal mx-2" @click="isShowAllReviews = !isShowAllReviews">
                     {{ isShowAllReviews ? 'Hide all reviews' : 'All reviews' }}
                 </button>
             </h2>
